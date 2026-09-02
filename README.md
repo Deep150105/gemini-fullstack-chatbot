@@ -86,4 +86,4 @@ Open http://localhost:3000
 
 - Web search / agentic tool-calling is disabled (see above)
 - No password reset flow implemented
-- No production deployment configured — this is a local-dev build
+- No production deployment configured — this is a local-dev build.
