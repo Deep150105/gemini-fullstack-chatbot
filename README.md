@@ -20,17 +20,19 @@ A full-stack AI chatbot web application built with:
 
 ## Project Structure
 
+```
 gemini-fullstack-chatbot/
 ├── app/
-│ ├── api/chat/route.ts # Streaming SSE chat endpoint
-│ └── page.tsx # Chat interface
-├── components/ # UI components
+│   ├── api/chat/route.ts          # Streaming SSE chat endpoint
+│   └── page.tsx                   # Chat interface
+├── components/                    # UI components
 ├── lib/
-│ ├── gemini/client.ts # Gemini SDK setup (tool calling currently disabled)
-│ ├── supabase/ # Supabase client (browser + server)
-│ └── tools/web-search.ts # Web search tool (built, not currently wired in)
-├── supabase/schema.sql # Database schema with RLS policies
-└── .env.example # Environment variable template
+│   ├── gemini/client.ts           # Gemini SDK setup (tool calling currently disabled)
+│   ├── supabase/                  # Supabase client (browser + server)
+│   └── tools/web-search.ts        # Web search tool (built, not currently wired in)
+├── supabase/schema.sql            # Database schema with RLS policies
+└── .env.example                   # Environment variable template
+```
 
 
 ## Getting Started
